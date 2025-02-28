@@ -10,7 +10,7 @@ classifiers = [
     "License :: OSI Approved :: BSD License",
     "Natural Language :: English",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.8",
 ]
 packages = [
     { include = "game", from = "src" }
@@ -20,7 +20,7 @@ include = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 black = "^22.3.0"
@@ -28,7 +28,6 @@ isort = "^5.6.4"
 flake8 = "^3.8.4"
 pylint = "^2.6.0"
 pytest = "^7.1"
-coverage = "^7.6.12"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
